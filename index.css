@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bkground{
+    min-height: 100vh;
+    background-image: url("./assets/greengrass-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    /* border: 2px solid red; */
+}
+h1{
+    color: goldenrod;
+    margin-top: 100px;
+}
+.change{
+    color: white;
+    margin-top: 30px;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    background-color: goldenrod;
+    border:3px solid transparent;
+    color: #016f32;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin-top: 20px;
+}
+button:hover{
+    border:3px solid white;
+}
